@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   #rootは/と同義
   #今回の場合はstatic_pagesが/と同じ
   
+  
   get  '/help',    to: 'static_pages#help'
   #これはstatic_pages/helpでもアクセスできる
   get  '/about',   to: 'static_pages#about'
